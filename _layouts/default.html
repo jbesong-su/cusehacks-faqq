@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% if site.trust_badge.year %}
+      {% include trust_badge.html %}
+    {% endif %}
+    
+    <div class="wrapper">
+      <div class="sidebar">
+        <div class="container text-center">
+          <img src= "{{ site.image.header }}" alt="CuseHacks">
+          {% for item in site.side_banner.faq %}
+          <div class="sidebar-q container">
+            <h5><i>{{ item.header }}</i></h5>
+            {{ item.content }}
+          </div>
+          {% endfor %}
+          <div class="sidebar-faq-link">
+            <i>More questions? </i><a href="{{ site.links.faq_href }}"><b><i>FAQ.</i></b></a>
+          </div>
+          <div class="sidebar-register">
+            <h4><i>Ready to register?</i></h4>
+            <div class="sidebar-buttons">
+              <a target="_blank" href="{{ site.links.apply_href }}">{{ site.side_banner.apply_text }}</a>
+            </div>
+          </div>
+          <div class="sidebar-sponsors">
+            {% if site.side_banner.sponsors %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        {{ content }}
+      </div>
+
+    </div>
+
+    <section class="footer">
+      <div class="footer-heading">
+        <h6><i>Contact Us</i></h6>
+      </div>
+
+
+      <div class="row justify-content-around">
+        <div class="col-5">
+          <p>2020 CuseHacks <img src="{{ site.image.slice }}" alt="" width=6%></p>
+        </div>
+        <div class="col-3">
+          {% for item in site.social %}
+            <a target="_blank" class="social_icon" href="{{ item.href }}">
+              <i class="{{ item.icon }}" aria-hidden="true"></i>
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <script src="{{ '/js/jquery-1.11.3.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+    <script src="{{ '/js/script.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
+    {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
+  </body>
+</html>

@@ -1,0 +1,206 @@
+# --------------
+# -- Settings --
+# --------------
+
+# Ignore this. This is only if you're hosting this in a sub-folder.
+# If you're using GitHub pages, they automatically override this with the right value.
+baseurl: "/cusehacks"
+
+# If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
+# If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
+url: "https://innovateorange.github.io"
+
+# The ability to use custom themes.
+style:
+  theme: "original"
+
+# This will help you track who's visiting your website.
+tracking:
+  google_analytics: "UA-151637954-1"
+
+# Let people connect & engage with you through social media.
+social:
+  twitter_handle: "CuseHacks"
+
+# This is Search Engine Optimization. It'll help your website look better on search.
+seo:
+  title:       "CuseHacks | February 27-28th, 2021 | Online"
+  description: "This will be the fourth event of Syracuse University's first student-run hackathon."
+  image:       "/cusehacks/images/logos/cusehacks_logo.png"
+
+# Event information.
+event:
+  name:        "CuseHacks"
+  # Spacing intentional
+  description: "Syracuse University's 24-hour hackathon"
+  date:        "February 27-28th"
+  year:        "2021"
+  location:    "Online"
+
+# MLH Trust Badge for site. Leave commented out if MLH application
+# hasn't been approved
+# Check https://mlh.io/brand-guidelines to make sure trust_badge.html has proper badge
+trust_badge: 
+  year:  "2021"
+  color: "white"
+
+# Links
+links:
+  about_href:      "#about"
+  faq_href:        "faq.html"
+  sponsors_href:   "sponsors.html"
+  apply_href:      "https://forms.gle/eLXQKgySo6g3qs5M8"
+  sponsor_package: "/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf"
+
+hero_header: Syracuse University's 24-hour hackathon is going virtual!
+
+video: "/cusehacks/images/video.mp4"
+
+# Images
+image:
+  header:       "/cusehacks/images/cuse_hacks_header.png"
+  thumbnail:    "/cusehacks/images/cuse_hacks_thumbnail.png"
+  slice:        "/cusehacks/images/logos/cusehacks_logo.png"
+  favicon:      "/cusehacks/images/logos/favicon.png"
+  aboutTop :    "/cusehacks/images/about/about_top.png"
+  aboutMid :    "/cusehacks/images/about/about_middle.png"
+  aboutSponsor: "/cusehacks/images/about/sponsor_screenshot.png"
+  aboutBottom : "/cusehacks/images/about/about_bottom.png"
+  faqTop:       "/cusehacks/images/faq/faq_top.png"
+  faqBottom:    "/cusehacks/images/faq/faq_bottom.png"
+
+# Side Banner
+side_banner:
+  apply_text: "I'm in."
+  faq: 
+    - header: "What is CuseHacks?"
+      content: >
+        Syracuse University's original 24-hour hackathon.
+    - header: "When is it?"
+      content: >
+        February 27-28th, 2021.
+    - header: "What's at stake?"
+      content: >
+        Over $5000 worth of prizes.
+    - header: "Where at?"
+      content: >
+        Your place. We're going virtual!
+
+# About Information
+about:
+  content1:
+    first: >
+        Over a span of 24-hours, students of all backgrounds are invited to explore the possibilities 
+        of technology and imagination. Build cool and innovative applications, websites, and hardware 
+        projects and compete for the grand prize.
+    second: "Join us February 27th-28th, 2020!"
+  header2: "You don't need to know how to code to participate."
+  content2: >
+    Designers, Artists, Entrepreneurs, Engineers, and <span style="color: #48bd96;">anyone</span> 
+    interested in creating are encouraged to participate. We are dedicated to facilitating a welcoming 
+    environment for everyone, particularly beginners. Mentors and volunteers will be there to help you 
+    by answering questions, leading fun workshops, and guiding you on your hack.
+  header3: "It will be fun."
+  content3: >
+    Throughout the weekend, you can use your imagination to make anything you want with the help of your amazing 
+    peers and impressive mentors. <span style="color: #48bd96;">There will be games, food, and swag!</span> 
+    Build something or break something. CuseHacks just wants you to have a great experience meeting new people, 
+    working with friends, and gaining new skills, learning about the possibilities of technology.
+  header4: "Previous Sponsors"
+  content4: >
+    Interestered in sponsoring us? Check out our sponsorship package 
+    [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"} 
+    and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
+  header5: "Not convinced yet?"
+  content5:
+    - text: >
+        Check out past projects and winners on our [Devpost](https://devpost.com/cusehacks/challenges){:target="_blank"}.
+    - text: >
+        Never been to a hackathon? Read our [FAQ](/cusehacks/faq.html).
+    - text: >
+        View [photos](https://drive.google.com/drive/folders/107c2zow0wFz0TLrBV0LSLuS-qFj4EWvT?usp=sharing){:target="_blank"} 
+        from last years CuseHacks.
+  header6: "Support CuseHacks"
+  content6:
+    - text : >
+        Interested in sponsoring us? Check out our sponsorship page
+        [here](/cusehacks/sponsors.html).
+
+# Frequently asked questions.
+faq_message: >
+    Have questions? You've come to the right place! Here are all our 
+    <span style="color: #48bd96;">top questions.</span>
+faq:
+  - question: "What is a hackathon?"
+    answer: >
+      A hackathon is an invention marathon. Students come together to build cool
+      software & hardware hacks over 24-48 hours. It's
+      [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl){:target="_blank"}.
+      CuseHacks is not your typical hackathon. We encourage students with any level of experience to sign up.
+  - question: "How much does it cost?"
+    answer: >
+      Nothing. Attending a hackathon is free, and we will provide resources throughout the event.
+  - question: "Who can participate?"
+    answer: >
+      All current college students are invited to participate.
+  # - question: "Will there be travel reimbursement?"
+  #   answer: >
+  #     We can not ensure travel reimbursements right now, but it may be a possibility. Please email 
+  #     innovateorange@syr.edu for more information.
+  - question: "What if I don't have coding or hackathon experience?"
+    answer: >
+      Beginners are especially encouraged to come! You do not need previous hackathon/coding experience or a technology
+      background. CuseHacks is meant to be a comfortable learning experience for everyone. Also, there will be workshops
+      and mentors available throughout the event that can help you get started.
+  - question: "How do teams work?"
+    answer: >
+      Each team can have up to as many members as you want. Typically teams run from 3-4 members. You can come 
+      with your friends or you can form a team at the event. There will be team forming activities at the 
+      beginning of the hackathon for anybody interested. You can also work alone if you want.
+  # - question: "Is there a schedule?"
+  #   answer: >
+  #     The schedule is posted on the [CuseHacks 2020 Devpost](https://cusehacks2020.devpost.com/){:target="_blank"}. The Devpost is also where 
+  #     submissions are posted.
+  - question: "Will there be prizes for hacks?"
+    answer: >
+      Yes, there are many prizes we will be giving out! At the end of the 24 hours, there will be an expo where you 
+      can demo your invention. Judges will be looking for the best inventions to fit the prize categories on 
+      the Devpost.
+  - question: "Where is the event?"
+    answer: >
+      CuseHacks is going VIRTUAL! Join us from wherever you are in the world. We'll be hosting it virtually on this website.
+  - question: "Is there a code of conduct?"
+    answer: >
+      Yes there is. We enforce it very strongly. You can find it
+      [here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf){:target="_blank"}.
+  - question: "What is Major League Hacking?"
+    answer: >
+      Major League Hacking is [the official student hackathon league](https://mlh.io){:target="_blank"} in North America & Europe.
+      They work with over 200 Member Events and empower over 70,000 students every year.
+  - question: "Your question not here?"
+    answer: >
+      Please email [innovateorange@syr.edu](mailto:innovateorange@syr.edu) for any more questions.
+
+# Social media on footer
+social:
+  - icon: "fa fa-facebook fa-2x"
+    href: "https://www.facebook.com/CuseHacks/"
+  - icon: "fa fa-instagram fa-2x"
+    href: "https://www.instagram.com/cusehacks/"
+  - icon: "fa fa-twitter fa-2x"
+    href: "https://twitter.com/CuseHacks"
+
+
+# ----------------------------------------------------
+# -- Ignore this unless you know what you're doing. --
+# ----------------------------------------------------
+
+markdown: kramdown
+exclude:
+ - node_modules
+ - gulpfile.js
+ - Gemfile
+ - Gemfile.lock
+ - package.json
+ - README.md
+ - CNAME
